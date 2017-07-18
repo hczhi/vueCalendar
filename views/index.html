@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>webpack 2 demo</title>
+    <link rel="stylesheet" href="../dist/css/index.css">
+    <script src="../dist/js/vue.js"></script>
+  </head>
+  <body>
+  	
+  	<div id="app">
+      <div class="demo1">
+        <input type="text" v-on:click="showCalendarFun" value="">
+        <input type="text" v-on:click="showCalendarFun" value="2017-07-25" >
+        <calendar class="calendar" :datestr='curDay' :showcalendar='showCalendar' ref="calendar" v-on:chooseday="chooseday"></calendar>
+      </div>
+       <div class="demo2">
+        <input type="text" v-on:click="showCalendarFun2" value="">
+        <calendar2 class="calendar" v-on:choosedays="choosedays" :datestr='curDay' ref="calendar2" v-bind:showcalendartwo='showcalendartwo'></calendar2> 
+      </div>
+      
+      <!-- <calendar class="calendar" :datestr='curDay' :showcalendar='showCalendar' ref="calendar" v-on:chooseday="chooseday"></calendar>   -->
+   <!--    <calendar2 class="calendar" datestr='2017-07-11' ></calendar2>   -->
+    </div>
+    <script src="../dist/js/index.js"></script>
+  </body>
+</html>

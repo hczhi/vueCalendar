@@ -1,0 +1,49 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	color: #666;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../../assets/iconfont/iconfont.eot'); /* IE9*/
+    src: url('../../assets/iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../assets/iconfont/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../../assets/iconfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../../assets/iconfont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.calendar{
+	position: absolute;
+    z-index: 100;
+}
+.demo1{
+    position: relative;
+    padding: 20px;
+}
+input{
+    width: 150px;
+    padding: 3px;
+    height: 24px;
+    line-height: 24px;
+    margin: 0 30px 0 0 ;
+}
+.demo2{
+    position: relative;
+    padding:40px 20px;
+    input{
+        width: 250px;
+        padding: 3px;
+        height: 24px;
+        line-height: 24px;
+        margin: 0 30px 0 0 ;
+    }
+}

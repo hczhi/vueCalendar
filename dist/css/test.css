@@ -1,0 +1,11 @@
+* {
+  padding: 0px;
+  margin: 0px; }
+
+body {
+  color: #666; }
+
+.bg {
+  background: url(/dist/img/nodata.png);
+  width: 555px;
+  height: 220px; }
